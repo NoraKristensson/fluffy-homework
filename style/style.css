@@ -4,8 +4,16 @@ body {
   font-family: "Muli";
   font-style: normal;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #13253a;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding: 0;
+  margin: 0;
 }
 
+/* ---------------------------------------------------- header */
 header {
   min-width: 1440px;
   width: 1440px;
@@ -15,6 +23,7 @@ header {
   background: #f4f6f7;
   display: flex;
   flex-wrap: wrap;
+  border-bottom: solid 1px #dce2e6;
 }
 
 .navigation {
@@ -28,7 +37,7 @@ header {
   padding-right: 135px;
 }
 
-.logo {
+.fluffy-logo {
   margin-top: 40px;
 }
 
@@ -43,16 +52,14 @@ nav {
 
 .navlink:hover {
   font-size: 20px;
-  color: grey;
+  color: #ff7f57;
 }
 
 .header-content {
   width: 1440px;
-  height: 810;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid 1px blue;
 }
 
 .header-text {
@@ -60,11 +67,17 @@ nav {
   width: 470px;
 }
 
-h3 {
+.bluetext {
   font-style: italic;
   font-size: 16px;
   line-height: 20px;
   color: #2557ab;
+  /* bottom: 120px; */
+}
+
+.bluetext--first,
+.bluetext--third {
+  margin: 0;
 }
 
 h1 {
@@ -74,14 +87,6 @@ h1 {
   letter-spacing: -1px;
 
   color: #13253a;
-}
-
-p {
-  font-size: 16px;
-  line-height: 27px;
-  color: #13253a;
-  mix-blend-mode: normal;
-  opacity: 0.9;
 }
 
 .orange-button {
@@ -96,6 +101,184 @@ p {
   font-size: 17px;
   line-height: 21px;
   text-align: center;
-
   color: #ffffff;
+}
+
+.orange-button:hover {
+  background-color: #5c8cd7;
+  transform: scale(1.1);
+}
+
+/* ---------------------------------------------------------service */
+
+.service {
+  width: 1440px;
+  height: 525px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-info {
+  /* min-width: 1170px;
+  min-height: 306px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: solid 1px blue; */
+}
+
+.service-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  padding-top: 120px;
+  padding-bottom: 34px;
+}
+
+.bluetext--second {
+  position: absolute;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #13253a;
+}
+
+.service-content {
+  width: 1170px;
+  min-height: 197px;
+  display: flex;
+}
+
+.card {
+  margin-left: 20px;
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #3b4d6c;
+}
+
+.text-service > {
+  text-align: center;
+}
+
+.img-service {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+/* -----------------------------------------------------------kpi */
+
+.kpi {
+  width: 1440px;
+  height: 205px;
+  background: #f4f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.kpi-content {
+  max-width: 250px;
+  height: 85px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kpi-content:first-of-type {
+  margin-left: 200px;
+}
+.kpi-content:last-of-type {
+  margin-right: 200px;
+}
+
+.bigtext {
+  font-size: 46px;
+  line-height: 58px;
+  color: #13253a;
+  margin: 0;
+}
+
+.bigtext--orange {
+  color: #ff7f57;
+}
+
+/* ---------------------------------------------------------about */
+
+.about {
+  height: 699px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  width: 970px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+
+.bluetext--fourth {
+  padding-left: 20px;
+}
+
+.bigtext-about {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  color: #13253a;
+  margin: 0;
+}
+
+.about-text {
+  display: flex;
+}
+
+.about-right {
+  margin-right: 30px;
+  padding-top: 0px;
+}
+
+.right-heading {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0;
+}
+
+.logos {
+  width: 970px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.separator {
+  min-width: 1170px;
+  margin-top: 100px;
+  border: #dce2e6 1px solid;
 }

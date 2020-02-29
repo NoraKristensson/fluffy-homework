@@ -1,0 +1,137 @@
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  min-width: 1440px;
+  width: 1440px;
+  min-height: 810px;
+  box-sizing: border-box;
+
+  background: #f4f6f7;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: solid 1px #dce2e6;
+}
+
+.navigation {
+  /* min-width: 1440px; */
+  width: 1440px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.logo {
+  margin-top: 40px;
+}
+
+nav {
+  margin-top: 53px;
+}
+
+.navlink {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.navlink:hover {
+  font-size: 20px;
+  color: #ff7f57;
+}
+
+.header-content {
+  width: 1440px;
+  height: 810;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-text {
+  height: 261px;
+  width: 470px;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2557ab;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 58px;
+  letter-spacing: -1px;
+
+  color: #13253a;
+}
+
+p {
+  font-size: 16px;
+  line-height: 27px;
+  color: #13253a;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+
+.orange-button {
+  width: 336px;
+  height: 51px;
+  background-color: #ff7f57;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin-bottom: 245px;
+  border: none;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.orange-button:hover {
+  background-color: #5c8cd7;
+  transform: scale(1.1);
+}
+
+/* --------------------Service */
+
+.service {
+  width: 1440px;
+  height: 525px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
+}
+
+.service-info {
+  min-width: 1170px;
+  min-height: 306px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 1px red;
+}
+
+.service-content {
+  min-width: 1170px;
+  min-height: 197px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
