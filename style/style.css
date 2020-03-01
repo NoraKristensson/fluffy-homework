@@ -28,7 +28,7 @@ header {
 
 .navigation {
   /* min-width: 1440px; */
-  width: 1440px;
+  min-width: 1440px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -243,14 +243,19 @@ h3 {
 
 .bluetext--fourth {
   padding-left: 20px;
+  margin-bottom: 0px;
 }
 
-.bigtext-about {
+.boldbigtext {
   font-weight: bold;
   font-size: 38px;
   line-height: 48px;
+  margin-top: 0px;
+}
+
+.boldbigtext--about {
   color: #13253a;
-  margin: 0;
+  margin-bottom: 34px;
 }
 
 .about-text {
@@ -281,4 +286,122 @@ h3 {
   min-width: 1170px;
   margin-top: 100px;
   border: #dce2e6 1px solid;
+}
+
+/* --------------------------------------------------------info */
+
+.info {
+  width: 1440px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.info-content {
+  width: 1170px;
+  height: 450px;
+  display: flex;
+}
+
+.info-right {
+  padding-right: 70px;
+}
+
+.boldbigtext--info {
+  padding-right: 150px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.material-icons {
+  position: relative;
+  color: #ff7f57;
+  font-weight: bold;
+  top: 6px;
+}
+
+.left {
+  border: geren 1px solid;
+  min-height: 450px;
+}
+
+.img-rectangle {
+  position: relative;
+  top: -9px;
+  border: none;
+}
+
+/* ----------------------------------------------------------------cfa */
+.cfa {
+  width: 1440px;
+  height: 434px;
+  background: #ff7f57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cfa-content {
+  min-height: 234px;
+  width: 770px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-content: space-around;
+}
+
+.top-heading {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-bottom: 0px;
+}
+
+.big-heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #f4f6f7;
+  margin-bottom: 0px;
+  margin-top: 7px;
+}
+
+.text-cfa {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.cfa-button {
+  width: 226px;
+  height: 60px;
+  color: #ffffff;
+  background: #2557ab;
+  border-radius: 3px;
+  margin-top: 20px;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.3);
+}
+
+.cfa-button:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+  border: #2557ab solid 1px;
+  color: #2557ab;
 }
