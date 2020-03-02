@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
       <div class="navigation">
@@ -36,7 +37,9 @@
             help of Last Door. Our 15+ years of experience in building websites
             have grown businesses of 1000+ clients.
           </p>
-          <button class="orange-button">Get Your Free Consoltatuin Now</button>
+          <button class="orange-button orange button--first">
+            Get Your Free Consoltatuin Now
+          </button>
         </div>
         <div class="header-pic">
           <img src="style/img/header-pic.png" alt="storing i fluffy" />
@@ -217,21 +220,47 @@
       </div>
     </section>
 
-    <section class="footer">
-        <div class="contactform">
-            <p class="formheading">Contact Us</p>
-            <form>
-                <label for="namne">
-                    <input type="text">
-                </label>
-                <label for="email">
-                    <input type="text">
-                </label>
-                <label for="message">
-                    <input type="text">
-                </label>
-            </form>
+    <footer>
+      <div class="contactform">
+        <div>
+          <p class="formheading">Contact Us</p>
         </div>
-    </section>
+        <div>
+          <form>
+            <label for="namne"
+              >Full Namne
+              <br />
+              <br />
+              <input type="text" placeholder="Ram Kaji" />
+            </label>
+            <br />
+            <label for="email"
+              >Your Email Address
+              <br />
+              <br />
+              <input type="text" placeholder="hello@lastdoor.store" />
+            </label>
+            <br />
+            <label for="message"
+              >Your Message
+              <br />
+              <br />
+              <textarea
+                maxlength="200"
+                placeholder="Type your message here..."
+              ></textarea>
+            </label>
+          </form>
+        </div>
+        <div>
+          <button class="orange-button orange-button--last">
+            Submit Your Message
+          </button>
+        </div>
+      </div>
+      <div class="coopyright">
+        Copyright © 2018 LastDoor.Store
+      </div>
+    </footer>
   </body>
 </html>
