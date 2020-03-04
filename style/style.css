@@ -192,7 +192,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-around;
 }
 
 .kpi-content {
@@ -201,11 +200,18 @@ h3 {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
+  border: #ff7f57 1px solid;
 }
 
 .kpi-content:first-of-type {
   margin-left: 200px;
 }
+
+.kpi-content:nth-child(2) {
+  margin-left: 125px;
+  margin-right: 157px;
+}
+
 .kpi-content:last-of-type {
   margin-right: 200px;
 }
@@ -475,6 +481,10 @@ input {
   color: #ff7f57;
 }
 
+input:focus {
+  background-color: #225d85;
+}
+
 input::placeholder {
   height: 20px;
   font-style: italic;
@@ -503,6 +513,10 @@ textarea {
   line-height: 20px;
   color: #ff7f57;
   resize: none;
+}
+
+textarea:focus {
+  background-color: #2557ab;
 }
 
 textarea::placeholder {
